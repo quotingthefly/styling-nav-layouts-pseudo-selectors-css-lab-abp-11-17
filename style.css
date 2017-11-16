@@ -11,7 +11,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -31,9 +31,20 @@ nav a {
   font-size: 18px;
 }
 
-#header a{
+header h3 {
   text-decoration: none;
   color: #868e96;
+  float: left;
+  font-size: 30px;
+}
+
+header h3 a {
+  text-decoration: none;
+  color: #868e96;
+}
+
+#header a:hover{
+  text-decoration:underline;
 }
 
 main{
@@ -62,4 +73,50 @@ footer{
   margin-top: 80px;
   padding-top: 20px;
   color: #CCC;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+div.questions {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+div.questions h4 {
+  font-size: 30px;
+  margin-bottom: `10px;
+}
+
+div.questions p {
+  margin-top:30px;
+}
+
+div.questions a.btn{
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
+  padding: 18px;
+  font-size: 20px;
+}
+
+div.questions a.btn {
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
+  padding: 18px;
+  font-size: 20px;
+}
+
+div.questions a.btn:hover {
+  background-color: #0069d9;
+  border-color: #0069d9;
 }
