@@ -83,6 +83,8 @@ nav a:hover {
 div.questions {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 div.questions h4{
@@ -115,4 +117,3 @@ div.questions a.btn:hover {
   background-color: #0069d9;
   border-color: #0069d9;
 }
-
