@@ -106,7 +106,7 @@ div.questions a.btn{
   border-color: #0069d9bff;
 }
 
-#tit a:hover {
-  text-decoration: underline;
-
-
+div.questions a.btn:hover {
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
