@@ -73,7 +73,7 @@ footer{
 
 nav a:hover {
   text-decoration: underline;
-  text-decoration-color: #0056b3;
+  color: #0056b3;
 }
 
 div.questions{
